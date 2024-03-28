@@ -76,7 +76,7 @@ const Navbar = () => {
         <nav id="nav">
           <ul class="d-none d-lg-block">
             <li id="mnu_home">
-              <a href="/">HOME</a>
+              <a href="/index">HOME</a>
             </li>
             <li id="mnu_about">
               <NavLink to="/about">ABOUT</NavLink>
