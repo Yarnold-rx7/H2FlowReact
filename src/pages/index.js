@@ -10,7 +10,7 @@ import ProjectNews from "../components/ProjectNews";
 import HeaderWording from "../components/HeaderWording";
 import Footer from "../components/Footer";
 
-const Home = () => {
+const Index = () => {
   return (
     <div>
       <div className="site-container">
@@ -29,4 +29,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Index;
