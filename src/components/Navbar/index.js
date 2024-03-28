@@ -25,8 +25,6 @@ const Navbar = () => {
           content="H2Flow supplies processes and equipment for water and wastewater treatment for industrial and municipal use and actively works with plant engineers & operators, consulting engineers and contractors."
         />
 
-        <script src="/static/pages/js/jquery-3.2.1.min.js"></script>
-
         <script
           type="text/javascript"
           src="//platform-api.sharethis.com/js/sharethis.js#property=5a4ec87b5d7f1a001224d050&product=inline-share-buttons"
@@ -78,7 +76,7 @@ const Navbar = () => {
         <nav id="nav">
           <ul class="d-none d-lg-block">
             <li id="mnu_home">
-              <a href="./home">HOME</a>
+              <a href="/">HOME</a>
             </li>
             <li id="mnu_about">
               <NavLink to="/about">ABOUT</NavLink>
