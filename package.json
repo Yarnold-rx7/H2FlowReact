@@ -1,6 +1,6 @@
 {
   "name": "h2flow-react",
-  "homepage": "https://yarnold-rx7.github.io/H2FlowReact",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

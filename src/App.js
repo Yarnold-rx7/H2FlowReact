@@ -2,7 +2,7 @@ import React from "react";
 // import "./App.css";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Index from "./pages/index";
+import Home from "./pages/index";
 import About from "./pages/about";
 import Products from "./pages/products";
 import Manufacturers from "./pages/manufacturers";
@@ -13,8 +13,8 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Index />} />
-        <Route path="/index" element={<Index />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/products" element={<Products />} />
         <Route path="/manufacturers" element={<Manufacturers />} />

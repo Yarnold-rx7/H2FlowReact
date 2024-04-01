@@ -1,5 +1,4 @@
 // Filename - "./components/Navbar.js
-
 import React from "react";
 import { NavLink } from "./NavbarElements";
 
@@ -24,13 +23,6 @@ const Navbar = () => {
           name="description"
           content="H2Flow supplies processes and equipment for water and wastewater treatment for industrial and municipal use and actively works with plant engineers & operators, consulting engineers and contractors."
         />
-
-        <script
-          type="text/javascript"
-          src="//platform-api.sharethis.com/js/sharethis.js#property=5a4ec87b5d7f1a001224d050&product=inline-share-buttons"
-          async="async"
-        ></script>
-        <link rel="stylesheet" href="/30FJ7NvMgb8j_ZRE" />
       </head>
 
       <header>
@@ -38,11 +30,11 @@ const Navbar = () => {
           <div class="row-12">
             <div class="language-bar">
               <div class="languageSelection">
-                <a href="./index.html" class="mr-1 active-lang">
+                <a href="/" class="mr-1 active-lang">
                   ENGLISH
                 </a>
                 |{" "}
-                <a href="./index.html" class="ml-1">
+                <a href="/" class="ml-1">
                   FRANCAIS
                 </a>
               </div>
@@ -53,12 +45,12 @@ const Navbar = () => {
           <div class="col-3"></div>
           <div class="col-6">
             <div class="container pt-2 pb-4">
-              <a href="./index.html">
+              <a href="/">
                 <img
                   id="logo"
                   class="d-block mx-auto"
-                  src="./img/logo.png"
-                  alt="H2Flow Logo"
+                  src="../img/logo.png"
+                  alt="H2Flow Logos"
                 ></img>
               </a>
             </div>
@@ -76,7 +68,7 @@ const Navbar = () => {
         <nav id="nav">
           <ul class="d-none d-lg-block">
             <li id="mnu_home">
-              <a href="/index">HOME</a>
+              <a href="/home">HOME</a>
             </li>
             <li id="mnu_about">
               <NavLink to="/about">ABOUT</NavLink>
@@ -92,13 +84,13 @@ const Navbar = () => {
             </li>
 
             <li id="mnu_products">
-              <a href="./Municipal.html">MUNICIPAL</a>
+              <a href="/Municipal.html">MUNICIPAL</a>
             </li>
           </ul>
           <div className="container mobileMenuBtn d-block d-lg-none">
             <ul className="text-right">
               <li>
-                <a href="javascript:toggleNavMenu()">MENU</a>
+                <a href="/">MENU</a>
               </li>
             </ul>
           </div>
