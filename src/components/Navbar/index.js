@@ -45,7 +45,7 @@ const Navbar = () => {
           <div class="col-3"></div>
           <div class="col-6">
             <div class="container pt-2 pb-4">
-              <a href="/H2FlowReact/home">
+              <a href="/H2FlowReact">
                 <img
                   id="logo"
                   class="d-block mx-auto"
@@ -68,7 +68,7 @@ const Navbar = () => {
         <nav id="nav">
           <ul class="d-none d-lg-block">
             <li id="mnu_home">
-              <a href="/H2FlowReact/home">HOME</a>
+              <a href="/H2FlowReact">HOME</a>
             </li>
             <li id="mnu_about">
               <NavLink to="/H2FlowReact/about">ABOUT</NavLink>
@@ -93,7 +93,7 @@ const Navbar = () => {
           <div className="container mobileMenuBtn d-block d-lg-none">
             <ul className="text-right">
               <li>
-                <a href="/H2FlowReact/home">MENU</a>
+                <a href="/H2FlowReact">MENU</a>
               </li>
             </ul>
           </div>

@@ -15,7 +15,7 @@ export default function Technologies() {
               <div className="col-lg-6">
                 <div className="list-group text-light">
                   <TechnologyItem
-                    url="H2FlowReact/municipal/headworks"
+                    url="/H2FlowReact/municipal/headworks"
                     title="HEADWORKS & SCREENING"
                   ></TechnologyItem>
                   <TechnologyItem title="UV AOP & DISINFECTION"></TechnologyItem>

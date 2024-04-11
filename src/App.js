@@ -17,14 +17,14 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/H2FlowReact" element={<Home />} />
-          <Route path="/H2FlowReact/home" element={<Home />} />
           <Route path="/H2FlowReact/about" element={<About />} />
           <Route path="/H2FlowReact/products" element={<Products />} />
           <Route path="/H2FlowReact/industrial" element={<Industrial />} />
           <Route path="/H2FlowReact/municipal" element={<Municipal />} />
           <Route
-            path="H2FlowReact/municipal/headworks"
+            path="/H2FlowReact/municipal/headworks"
             element={<Headworks />}
+            git
           />
           <Route
             path="H2FloeReact/tanks"
