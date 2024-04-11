@@ -45,7 +45,7 @@ const Navbar = () => {
           <div class="col-3"></div>
           <div class="col-6">
             <div class="container pt-2 pb-4">
-              <a href="/">
+              <a href="/H2FlowReact/home">
                 <img
                   id="logo"
                   class="d-block mx-auto"

@@ -23,7 +23,7 @@ function App() {
           <Route path="/H2FlowReact/industrial" element={<Industrial />} />
           <Route path="/H2FlowReact/municipal" element={<Municipal />} />
           <Route
-            path="H2FloeReact/municipal/headworks"
+            path="H2FlowReact/municipal/headworks"
             element={<Headworks />}
           />
           <Route
