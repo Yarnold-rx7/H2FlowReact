@@ -8,7 +8,6 @@ import Technologies from "../components/Technologies";
 import Sectors from "../components/Sectors";
 import ProjectNews from "../components/ProjectNews";
 import HeaderWording from "../components/HeaderWording";
-import Footer from "../components/Footer";
 
 const Index = () => {
   return (
@@ -22,7 +21,6 @@ const Index = () => {
           <Sectors></Sectors>
           <ProjectNews></ProjectNews>
         </div>
-        <Footer></Footer>
       </div>
       {/* Show four images at once */}
     </div>

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Card({ title, webUrl, imgSrc, desc }) {
+export default function CardSimple({ title, imgSrc }) {
   // const image = require(`../../public/img/cards/${imgSrc}`);
 
   return (
@@ -8,10 +8,6 @@ export default function Card({ title, webUrl, imgSrc, desc }) {
       <img src={imgSrc} className="card-img-top" alt={title}></img>
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
-        <p className="card-text">{desc}</p>
-        <a href={webUrl} class="btn btn-primary">
-          Read More
-        </a>
       </div>
     </div>
   );

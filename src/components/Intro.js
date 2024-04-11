@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Intro() {
   return (
-    <sectoin className="intro">
+    <section className="intro">
       <div className="bg-white py-4">
         <div className="container">
           <div className="row justify-content-center">
@@ -37,6 +37,6 @@ export default function Intro() {
       <div className="border-color-bottom">
         <div className="shadow" />
       </div>
-    </sectoin>
+    </section>
   );
 }

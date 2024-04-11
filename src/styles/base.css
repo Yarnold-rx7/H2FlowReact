@@ -25,8 +25,8 @@ header {
 footer {
   color: #acacac;
   font-size: smaller;
-  position: absolute;
-  bottom: 0px;
+  position: relative;
+  bottom: 0px !important;
   width: 100%;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#333333+0,4f4f4f+22,4f4f4f+100 */
   background: #4f4f4f; /* Old browsers */
@@ -186,6 +186,25 @@ nav > ul > li > a:hover {
 }
 
 /* ###################################################### */
+
+/* ######################Industrial Page ################ */
+
+.industrial_header {
+  background-image: url(../../public/img/cards/industrial_header.jpg);
+  background-position: 0%;
+  background-size: cover;
+  height: 300px;
+}
+
+.industrial_title {
+  color: rgb(224, 224, 226);
+  background-color: #3f3f3f;
+  backdrop-filter: blur(20px);
+  margin-bottom: 0;
+}
+
+/*###############################  */
+
 .text-blue {
   color: #00acd4 !important;
 }

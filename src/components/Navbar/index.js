@@ -68,29 +68,32 @@ const Navbar = () => {
         <nav id="nav">
           <ul class="d-none d-lg-block">
             <li id="mnu_home">
-              <a href="/home">HOME</a>
+              <a href="/H2FlowReact/home">HOME</a>
             </li>
             <li id="mnu_about">
-              <NavLink to="/about">ABOUT</NavLink>
-            </li>
-            <li id="mnu_products">
-              <NavLink to="/products">PRODUCTS</NavLink>
-            </li>
-            <li id="mnu_mnfs">
-              <NavLink to="/Manufacturers">Manufacturers</NavLink>
-            </li>
-            <li id="mnu_industrial">
-              <NavLink to="/Industrial">Industrial</NavLink>
+              <NavLink to="/H2FlowReact/about">ABOUT</NavLink>
             </li>
 
             <li id="mnu_products">
-              <a href="/Municipal.html">MUNICIPAL</a>
+              <a href="/H2FlowReact/municipal">MUNICIPAL</a>
+            </li>
+            <li id="mnu_industrial">
+              <NavLink to="/H2FlowReact/industrial">INDUSTRIAL</NavLink>
+            </li>
+            <li id="mnu_industrial">
+              <NavLink to="https://h2flowtanks.com">TANKS</NavLink>
+            </li>
+            <li id="mnu_products">
+              <NavLink to="/H2FlowReact/projects">PROJECTS</NavLink>
+            </li>
+            <li id="mnu_mnfs">
+              <NavLink to="/contact">CONTACT US</NavLink>
             </li>
           </ul>
           <div className="container mobileMenuBtn d-block d-lg-none">
             <ul className="text-right">
               <li>
-                <a href="/">MENU</a>
+                <a href="/H2FlowReact/home">MENU</a>
               </li>
             </ul>
           </div>

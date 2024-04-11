@@ -4,7 +4,7 @@ import Socials from "./Socials";
 export default function Footer() {
   return (
     <>
-      <footer className="py-4">
+      <footer className="py-4 footer--pin">
         <div className="container">
           <div className="row">
             <div className="col-6">
