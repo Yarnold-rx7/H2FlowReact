@@ -1,6 +1,6 @@
 import React from "react";
 
-const Manufacturers = () => {
+const Municipal = () => {
   return (
     <div>
       <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -41,4 +41,4 @@ const Manufacturers = () => {
   );
 };
 
-export default Manufacturers;
+export default Municipal;
