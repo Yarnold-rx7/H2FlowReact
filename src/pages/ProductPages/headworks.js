@@ -7,7 +7,7 @@ import Footer from "../../components/Footer";
 import ProdIntro from "../../components/Products/Headworks/ProdIntro";
 import Card from "../../components/Card";
 
-const Index = () => {
+const Headworks = () => {
   return (
     <div>
       <div className="site-container">
@@ -18,9 +18,9 @@ const Index = () => {
               <div className="row flex image-banner justify-content-center my-3">
                 <div className="col-md-10 text-center">
                   <img
-                    src="../img/cards/rotoshear.jpg"
+                    src="../../img/cards/rotoshear.jpg"
                     className="img-fluid"
-                    alt
+                    alt="rotary screen"
                   />
                 </div>
               </div>
@@ -75,8 +75,8 @@ const Index = () => {
                         <div className="card" style={{ width: "18rem" }}>
                           <img
                             className="card-img-top"
-                            src="../cards/rotoshear.jpg"
-                            alt="Card image cap"
+                            src="../../img/cards/rotoshear.jpg"
+                            alt="rotary screenm"
                           />
                           <div className="card-body">
                             <h5 className="card-title">Parkson Rotoshear</h5>
@@ -105,8 +105,8 @@ const Index = () => {
                         <div className="card" style={{ width: "18rem" }}>
                           <img
                             className="card-img-top"
-                            src="../cards/fluiteco_IFD.jpg"
-                            alt="Card image cap"
+                            src="../../img/cards/fluiteco_IFD.jpg"
+                            alt="fluiteco screen"
                           />
                           <div className="card-body">
                             <h5 className="card-title">H2Flow IFD Series</h5>
@@ -124,7 +124,7 @@ const Index = () => {
                         <div className="card" style={{ width: "18rem" }}>
                           <img
                             className="card-img-top"
-                            src="../cards/in_channel_screen.jpg"
+                            src="../../img/cards/in_channel_screen.jpg"
                             alt="Card image cap"
                           />
                           <div className="card-body">
@@ -205,4 +205,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Headworks;

@@ -18,7 +18,10 @@ export default function Technologies() {
                     url="/H2FlowReact/municipal/headworks"
                     title="HEADWORKS & SCREENING"
                   ></TechnologyItem>
-                  <TechnologyItem title="UV AOP & DISINFECTION"></TechnologyItem>
+                  <TechnologyItem
+                    url="H2FlowReact/uv"
+                    title="UV AOP & DISINFECTION"
+                  ></TechnologyItem>
                   <TechnologyItem title="BIOLOGICAL TREATMENT"></TechnologyItem>
                   <TechnologyItem title="AERATION & DIFFUSERS"></TechnologyItem>
                   <TechnologyItem title="PROCESS BLOWERS"></TechnologyItem>
@@ -27,7 +30,10 @@ export default function Technologies() {
               </div>
               <div className="col-lg-6">
                 <div className="list-group text-light">
-                  <TechnologyItem title="DISSOLVED AIR FLOTATION"></TechnologyItem>
+                  <TechnologyItem
+                    url="H2FlowReact/daf"
+                    title="DISSOLVED AIR FLOTATION"
+                  ></TechnologyItem>
                   <TechnologyItem title="CLARIFICATION / FILTRATION"></TechnologyItem>
                   <TechnologyItem title="AEROBIC & ANAEROBIC DIGESTERS"></TechnologyItem>
                   <TechnologyItem title="SLUDGE DEWATERING"></TechnologyItem>

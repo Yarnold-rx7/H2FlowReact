@@ -9,6 +9,9 @@ import Industrial from "./pages/industrial";
 import Headworks from "./pages/ProductPages/headworks";
 import Footer from "./components/Footer";
 import Municipal from "./pages/municipal";
+import DAF from "./pages/ProductPages/daf";
+import UV from "./pages/ProductPages/uv";
+import Alpha from "./pages/ProductPages/DAFModels/alpha";
 
 function App() {
   return (
@@ -24,12 +27,14 @@ function App() {
           <Route
             path="/H2FlowReact/municipal/headworks"
             element={<Headworks />}
-            git
           />
           <Route
-            path="H2FloeReact/tanks"
+            path="H2FlowReact/tanks"
             element="https://www.h2flowtanks.com"
           />
+          <Route path="/H2FlowReact/daf" element={<DAF />} />
+          <Route path="/H2FlowReact/uv" element={<UV />} />
+          <Route path="/H2FlowReact/daf/alpha" element={<Alpha />} />
         </Routes>
       </Router>
       <Footer />

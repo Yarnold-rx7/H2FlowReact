@@ -8,7 +8,7 @@ export default function HeaderWording() {
           <img
             className="img-fluid d-block mx-auto px-4"
             style={{ maxHeight: 220 }}
-            src="./img/Home_Wording.png"
+            src="../../img/Home_Wording.png"
             alt="Technologies for Clean water, wastewater, Biosolids, and Biogas Treatment"
           />
         </div>
