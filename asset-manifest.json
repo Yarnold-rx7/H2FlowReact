@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/H2FlowReact/static/css/main.97259ad3.css",
-    "main.js": "/H2FlowReact/static/js/main.00a42f97.js",
+    "main.js": "/H2FlowReact/static/js/main.39a0ce76.js",
     "static/js/787.433c6bd7.chunk.js": "/H2FlowReact/static/js/787.433c6bd7.chunk.js",
     "static/media/Alpha5Skid.png": "/H2FlowReact/static/media/Alpha5Skid.5fb9a8617a7889460297.png",
     "static/media/Muni_WWTP.jpg": "/H2FlowReact/static/media/Muni_WWTP.448c123f1251b7eec43a.jpg",
@@ -22,6 +22,7 @@
     "static/media/DAF.jpg": "/H2FlowReact/static/media/DAF.2c275f1c9246c8595f5b.jpg",
     "static/media/DAF-Diagram - Colour_4.png": "/H2FlowReact/static/media/DAF-Diagram - Colour_4.7c4a2c6ab1165524e781.png",
     "static/media/rotoshear.jpg": "/H2FlowReact/static/media/rotoshear.aa6bf6b73a35a537e5bd.jpg",
+    "static/media/food_n_bev.jpg": "/H2FlowReact/static/media/food_n_bev.483df4a712793dd7b55d.jpg",
     "static/media/aquacaiman_main.jpg": "/H2FlowReact/static/media/aquacaiman_main.aa33f80470e7db8b9624.jpg",
     "static/media/odourControl.jpg": "/H2FlowReact/static/media/odourControl.07ab9a552182f1de677b.jpg",
     "static/media/aqua-guard.jpg": "/H2FlowReact/static/media/aqua-guard.872e977c58220b42eb64.jpg",
@@ -67,6 +68,7 @@
     "static/media/revicons.ttf": "/H2FlowReact/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/Enviromix.jpg": "/H2FlowReact/static/media/Enviromix.b2e6c9c9a1ccfc108854.jpg",
     "static/media/AdEdge.jpg": "/H2FlowReact/static/media/AdEdge.a5fed2512b7aa38f9b77.jpg",
+    "static/media/mining_facility.jpg": "/H2FlowReact/static/media/mining_facility.c58d1d41ed7159078e9e.jpg",
     "static/media/Unison_Solutions.jpg": "/H2FlowReact/static/media/Unison_Solutions.8e25946efd95ee648ade.jpg",
     "static/media/Moleaer.jpg": "/H2FlowReact/static/media/Moleaer.2222a7f80c66f9e87f03.jpg",
     "static/media/Parkson.jpg": "/H2FlowReact/static/media/Parkson.53c08fd2d9ddd1ef09c7.jpg",
@@ -78,19 +80,19 @@
     "static/media/Fluence.jpg": "/H2FlowReact/static/media/Fluence.0417da3c8dc5ae1c0f71.jpg",
     "static/media/WCS.jpg": "/H2FlowReact/static/media/WCS.2d188639721212a73d92.jpg",
     "static/media/revicons.woff": "/H2FlowReact/static/media/revicons.e8746a624ed098489406.woff",
-    "static/media/Instagram-black.svg": "/H2FlowReact/static/media/Instagram-black.3b3c62a974aba67eb96a.svg",
+    "static/media/Instagram-black.svg": "/H2FlowReact/static/media/Instagram-black.3b3c62a974aba67eb96a042aa8d713ce.svg",
     "static/media/css(1)": "/H2FlowReact/static/media/css(1).5932a89646a0665b50dc",
     "index.html": "/H2FlowReact/index.html",
-    "static/media/Youtube-color.svg": "/H2FlowReact/static/media/Youtube-color.6c3d57ee94928a75921a.svg",
-    "static/media/LinkedIn-color.svg": "/H2FlowReact/static/media/LinkedIn-color.89ac8411853e0a19afcf.svg",
-    "static/media/Facebook-color.svg": "/H2FlowReact/static/media/Facebook-color.04a068b4876009e69403.svg",
+    "static/media/Youtube-color.svg": "/H2FlowReact/static/media/Youtube-color.6c3d57ee94928a75921a71dfd8c986f9.svg",
+    "static/media/LinkedIn-color.svg": "/H2FlowReact/static/media/LinkedIn-color.89ac8411853e0a19afcfc63e63110674.svg",
+    "static/media/Facebook-color.svg": "/H2FlowReact/static/media/Facebook-color.04a068b4876009e6940366a0dfe33136.svg",
     "static/media/css": "/H2FlowReact/static/media/css.96df200b90deff863ba6",
     "main.97259ad3.css.map": "/H2FlowReact/static/css/main.97259ad3.css.map",
-    "main.00a42f97.js.map": "/H2FlowReact/static/js/main.00a42f97.js.map",
+    "main.39a0ce76.js.map": "/H2FlowReact/static/js/main.39a0ce76.js.map",
     "787.433c6bd7.chunk.js.map": "/H2FlowReact/static/js/787.433c6bd7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.97259ad3.css",
-    "static/js/main.00a42f97.js"
+    "static/js/main.39a0ce76.js"
   ]
 }
