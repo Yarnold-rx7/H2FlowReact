@@ -18,7 +18,7 @@ const Headworks = () => {
               <div className="row flex image-banner justify-content-center my-3">
                 <div className="col-md-10 text-center">
                   <img
-                    src="../../img/cards/rotoshear.jpg"
+                    src={require("../../img/cards/rotoshear.jpg")}
                     className="img-fluid"
                     alt="rotary screen"
                   />
@@ -34,7 +34,7 @@ const Headworks = () => {
                       <Card
                         title="Parkson Aquaguard"
                         webUrl="https://www.parkson.com/products/aqua-guard"
-                        imgSrc="../../img/cards/aqua-guard.jpg"
+                        imgSrc={require("../../img/cards/aqua-guard.jpg")}
                         desc="The Aqua Guard® is a rugged and proven
                           self-cleaning, traveling water screen that uses a
                           unique filter element system, which automatically
@@ -44,7 +44,7 @@ const Headworks = () => {
                       <Card
                         title="Parkson Aquacaiman"
                         webUrl="https://www.parkson.com/products/aqua-caiman"
-                        imgSrc="../../img/cards/aquacaiman_main.jpg"
+                        imgSrc={require("../../img/cards/aquacaiman_main.jpg")}
                         desc="The Aqua Caiman® represents the next generation of
                           mechanical bar screens. In designing the screen,
                           Parkson combined over 40 years of experience
@@ -55,7 +55,7 @@ const Headworks = () => {
                       <Card
                         title="Atlas-SSI Travelling Screens"
                         webUrl="https://www.atlas-ssi.com/intake-screens/traveling-water-screens/"
-                        imgSrc="../../img/cards/Atlas_ssi_screen.jpg"
+                        imgSrc={require("../../img/cards/Atlas_ssi_screen.jpg")}
                         desc="We build our heavy-duty ATLAS-SSI screens for high
                         performance and low maintenance. You can add a
                         Ristroph fish collection basket assembly to comply
@@ -75,7 +75,7 @@ const Headworks = () => {
                         <div className="card" style={{ width: "18rem" }}>
                           <img
                             className="card-img-top"
-                            src="../../img/cards/rotoshear.jpg"
+                            src={require("../../img/cards/rotoshear.jpg")}
                             alt="rotary screenm"
                           />
                           <div className="card-body">
@@ -105,7 +105,7 @@ const Headworks = () => {
                         <div className="card" style={{ width: "18rem" }}>
                           <img
                             className="card-img-top"
-                            src="../../img/cards/fluiteco_IFD.jpg"
+                            src={require("../../img/cards/fluiteco_IFD.jpg")}
                             alt="fluiteco screen"
                           />
                           <div className="card-body">
@@ -124,7 +124,7 @@ const Headworks = () => {
                         <div className="card" style={{ width: "18rem" }}>
                           <img
                             className="card-img-top"
-                            src="../../img/cards/in_channel_screen.jpg"
+                            src={require("../../img/cards/in_channel_screen.jpg")}
                             alt="Card image cap"
                           />
                           <div className="card-body">
