@@ -75,7 +75,7 @@ const Navbar = () => {
             </li>
 
             <li id="mnu_products">
-              <a href="/H2FlowReact/municipal">MUNICIPAL</a>
+              <NavLink to="/H2FlowReact/municipal">MUNICIPAL</NavLink>
             </li>
             <li id="mnu_industrial">
               <NavLink to="/H2FlowReact/industrial">INDUSTRIAL</NavLink>

@@ -2,6 +2,7 @@ import React from "react";
 // import "./App.css";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { createHashHistory } from "history";
 import Home from "./pages/index";
 import About from "./pages/about";
 import Products from "./pages/products";
@@ -13,10 +14,12 @@ import DAF from "./pages/ProductPages/daf";
 import UV from "./pages/ProductPages/uv";
 import Alpha from "./pages/ProductPages/DAFModels/alpha";
 
+const history = createHashHistory();
+
 function App() {
   return (
     <>
-      <Router>
+      <Router history={history}>
         <Navbar />
         <Routes>
           <Route path="/H2FlowReact" element={<Home />} />

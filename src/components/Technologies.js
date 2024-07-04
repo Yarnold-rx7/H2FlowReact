@@ -31,7 +31,7 @@ export default function Technologies() {
               <div className="col-lg-6">
                 <div className="list-group text-light">
                   <TechnologyItem
-                    url="H2FlowReact/daf"
+                    url="/H2FlowReact/daf"
                     title="DISSOLVED AIR FLOTATION"
                   ></TechnologyItem>
                   <TechnologyItem title="CLARIFICATION / FILTRATION"></TechnologyItem>
