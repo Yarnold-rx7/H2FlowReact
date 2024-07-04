@@ -96,20 +96,20 @@ const alpha = () => {
                   <img
                     alt
                     className="img-fluid rounded d-block"
-                    src="../../../img/cards/dafModels/Alpha.png"
+                    src={require("../../../img/cards/dafModels/Alpha.png")}
                     style={{ marginTop: "3.7rem" }}
                   />{" "}
                   <img
                     alt
                     className="img-fluid rounded d-block"
-                    src="../../../img/cards/dafModels/Alpha5Skid.png"
+                    src={require("../../../img/cards/dafModels/Alpha5Skid.png")}
                     style={{ marginTop: "1rem" }}
                   />
                   <br />
                   <img
                     alt
                     className="img-fluid rounded d-block"
-                    src="../../../img/cards/dafModels/01_products_sub_alpha_03.png"
+                    src={require("../../../img/cards/dafModels/01_products_sub_alpha_03.png")}
                     style={{ marginTop: "1rem" }}
                   />
                 </div>

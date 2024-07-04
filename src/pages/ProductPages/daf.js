@@ -8,8 +8,8 @@ const daf = () => {
         <div className="col-3 align-self-center">
           <img
             className="img-fluid mx-auto d-block rounded"
-            src="../../img/H2Flow_DAF_THUMB.jpg"
-            alt="H2Flow logo"
+            src={require("../../img/H2Flow_DAF_THUMB.jpg")}
+            alt="H2Flow"
           />
         </div>
       </section>
@@ -66,7 +66,8 @@ const daf = () => {
             <div className="col-6">
               <img
                 className="img-fluid"
-                src="../../img/cards/dafModels/Alpha5Skid.png"
+                src={require("../../img/cards/dafModels/Alpha5Skid.png")}
+                alt="DAF Skid assembly"
               />
             </div>
           </div>
@@ -165,43 +166,40 @@ const daf = () => {
             <Card
               title="Alpha Series"
               webUrl="/H2FlowReact/daf/alpha"
-              imgSrc="../../img/cards/dafModels/alpha.png"
+              imgSrc={require("../../img/cards/dafModels/Alpha.png")}
               desc="The Alpha flotation units are designed to treat wastewater with high solids loading. The capacity of the Alpha units range from 22 usgpm to 800 usgpm (5 m3/hr up to 180m3/hr."
             ></Card>
             <Card
               title="Delta Series"
               webUrl=""
-              imgSrc="../../img/cards/dafModels/delta.png"
+              imgSrc={require("../../img/cards/dafModels/Delta.png")}
               desc="The Delta Series DAF systems use plate-pak technology to squeeze the highest possible surface area in the smallest footprint. Ideal for existing facilities where space is tight. Typical flow ranges vary from 22 gpm to 660gpm"
             ></Card>
             <Card
               title="Sigma Series"
               webUrl=""
-              imgSrc="../../img/cards/dafModels/Sigma.jpg"
+              imgSrc={require("../../img/cards/dafModels/Sigma.jpg")}
               desc="The Sigma Series DAF are super large Plate Pak systems. Flow range:2200 to 4400 usgpm"
             ></Card>
             <Card
               title="Gamma Series"
               webUrl=""
-              imgSrc="../../img/cards/dafModels/Gamma.jpg"
+              imgSrc={require("../../img/cards/dafModels/Gamma.jpg")}
               desc="The Delta Series DAF systems use plate-pak technology to squeeze the highest possible surface area in the smallest footprint. Ideal for existing facilities where space is tight. Typical flow ranges vary from 22 gpm to 660gpm"
             ></Card>
             <Card
               title="PWL Series"
               webUrl=""
-              imgSrc="../../img/cards/dafModels/PWL.jpg"
+              imgSrc={require("../../img/cards/dafModels/PWL.jpg")}
               desc="The Delta Series DAF systems use plate-pak technology to squeeze the highest possible surface area in the smallest footprint. Ideal for existing facilities where space is tight. Typical flow ranges vary from 22 gpm to 660gpm"
             ></Card>
             <Card
               title="SPC Series"
               webUrl=""
-              imgSrc="../../img/cards/dafModels/PWL.jpg"
+              imgSrc={require("../../img/cards/dafModels/PWL.jpg")}
               desc="The Delta Series DAF systems use plate-pak technology to squeeze the highest possible surface area in the smallest footprint. Ideal for existing facilities where space is tight. Typical flow ranges vary from 22 gpm to 660gpm"
             ></Card>
           </div>
-          <p>Signa</p>
-          <p>Alpha</p>
-          <p>Pipe Flocculator</p>
         </div>
       </section>
 

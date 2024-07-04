@@ -1,4 +1,5 @@
 import React from "react";
+import MuniOntario from "../components/MuniOntario";
 
 const Manufacturers = () => {
   return (
@@ -18,15 +19,9 @@ const Manufacturers = () => {
           <div className="container pb-4">
             <div className="row">
               <div className="col-12 pb-4">
-                <h1 className="pt-4">Manufacturers Represented in Ontario</h1>
-                <a href="https://h2flow.com/content/english/manufacturers">
-                  Change Location
-                </a>
-                <hr />{" "}
+                <MuniOntario />
+                <hr />
               </div>
-            </div>
-            <div className="row">
-              <h3>List of manufacturers</h3>
             </div>
           </div>
           <div className="py-4 border-color-top">

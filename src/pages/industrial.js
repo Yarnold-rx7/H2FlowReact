@@ -11,16 +11,22 @@ const Industrial = () => {
         </h1>
       </div>
       <div className="row flex industrial-body">
-        <p className="industrial-body-text">
+        <h4 className="industrial-body-text my-2 text-center">
           H2Flow designs and supplies treatment technologies for all types of
           industrial clean water and wastewater applications.
-        </p>
+        </h4>
       </div>
-      <div>
+      <div class="mt-5">
         <h5>We serve the following industrial sectors</h5>
         <div className="row mb-4 tech-list">
-          <CardSimple title="Food and Beverage" imgSrc="" />
-          <CardSimple title="Food and Beverage" imgSrc="" />
+          <CardSimple
+            title="Food and Beverage"
+            imgSrc={require("../img/cards/food_n_bev.jpg")}
+          />
+          <CardSimple
+            title="Mining"
+            imgSrc={require("../img/cards/mining_facility.jpg")}
+          />
         </div>
       </div>
       <div>
@@ -28,7 +34,10 @@ const Industrial = () => {
         <div className="row mb-4 tech-list">
           <div className="col-lg-6">
             <div className="list-group text-light">
-              <TechnologyItem title="DISSOLVED AIR FLOTATION"></TechnologyItem>
+              <TechnologyItem
+                url="../H2FlowReact/daf"
+                title="DISSOLVED AIR FLOTATION"
+              ></TechnologyItem>
               <TechnologyItem title="BIOLOGICAL TREATMENT"></TechnologyItem>
               <TechnologyItem title="AERATION & DIFFUSERS"></TechnologyItem>
               <TechnologyItem title="PROCESS BLOWERS"></TechnologyItem>

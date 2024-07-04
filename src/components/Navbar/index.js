@@ -1,6 +1,7 @@
 // Filename - "./components/Navbar.js
 import React from "react";
 import { NavLink } from "./NavbarElements";
+import logo from "../../../src/logo.png";
 
 const Navbar = () => {
   return (
@@ -45,14 +46,14 @@ const Navbar = () => {
           <div class="col-3"></div>
           <div class="col-6">
             <div class="container pt-2 pb-4">
-              <a href="/H2FlowReact">
+              <NavLink to="/H2FlowReact">
                 <img
                   id="logo"
                   class="d-block mx-auto"
-                  src="../img/logo.png"
+                  src={logo}
                   alt="H2Flow Logos"
                 ></img>
-              </a>
+              </NavLink>
             </div>
           </div>
           <div class="col-3">

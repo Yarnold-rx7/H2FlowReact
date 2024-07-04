@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function SocialLink({ url, img, alt }) {
-  const image = `../img/${img}`;
   return (
     <>
       <a href={url}>
@@ -15,7 +14,7 @@ export default function SocialLink({ url, img, alt }) {
             width: 36,
           }}
         >
-          <img className="w-100 h-100" src={image} alt={alt} />
+          <img className="w-100 h-100" src={img} alt={alt} />
         </div>
       </a>
     </>

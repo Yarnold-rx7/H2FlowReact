@@ -1,4 +1,5 @@
 import React from "react";
+import HomeWording from "../img/Home_Wording.png";
 
 export default function HeaderWording() {
   return (
@@ -8,7 +9,7 @@ export default function HeaderWording() {
           <img
             className="img-fluid d-block mx-auto px-4"
             style={{ maxHeight: 220 }}
-            src="../../img/Home_Wording.png"
+            src={HomeWording}
             alt="Technologies for Clean water, wastewater, Biosolids, and Biogas Treatment"
           />
         </div>

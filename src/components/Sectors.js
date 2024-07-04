@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Sectors() {
   return (
@@ -16,14 +17,14 @@ export default function Sectors() {
                     <h4 className="card-title">
                       Municipal Water &amp; Wastewater Treatment
                     </h4>
-                    <a className="card-link" href="./Municipal.html">
+                    <NavLink className="card-link" to="./municipal">
                       <img
-                        src="./img/cards/Muni_WWTP.jpg"
+                        src={require("../img/cards/Muni_WWTP.jpg")}
                         style={{ height: 300 }}
                         className="card-img img-fluid"
-                        alt
+                        alt="Municipal wwtp"
                       />
-                    </a>
+                    </NavLink>
                   </div>
                 </div>
               </div>
@@ -35,10 +36,10 @@ export default function Sectors() {
                     </h4>
                     <a className="card-link" href="./Municipal.html">
                       <img
-                        src="./img/cards/DAF.jpg"
+                        src={require("../img/cards/DAF.jpg")}
                         style={{ height: 300 }}
                         className="card-img img-fluid"
-                        alt
+                        alt="Industrial wwtp"
                       />
                     </a>
                   </div>
@@ -52,10 +53,10 @@ export default function Sectors() {
                     </h4>
                     <a className="card-link" href="./Municipal.html">
                       <img
-                        src="./img/cards/Tanks.jpg"
+                        src={require("../img/cards/Tanks.jpg")}
                         style={{ height: 300 }}
                         className="card-img img-fluid"
-                        alt
+                        alt="a glass fused to steel tank"
                       />
                     </a>
                   </div>

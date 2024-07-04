@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "./Card";
 
 export default function Municipal() {
   return (
@@ -26,7 +27,11 @@ export default function Municipal() {
             data-bs-parent="#wastewaterList"
           >
             <div className="accordion-body">
-              {/* <Card name="Atara" webUrl="www.atara.com" imgSrc="Atara.jpg" /> */}
+              <Card
+                name="Atara"
+                webUrl="https://www.atarequipment.com"
+                imgSrc={require("../img/Atara.jpg")}
+              />
             </div>
           </div>
         </div>
@@ -50,7 +55,11 @@ export default function Municipal() {
             data-bs-parent="#wastewaterList"
           >
             <div className="accordion-body" />
-            {/* <Card name="Ovivo" webUrl="www.ovivo.com" imgSrc="Ovivo.jpg" /> */}
+            <Card
+              name="Ovivo"
+              webUrl="https://www.ovivowater.com"
+              imgSrc={require("../img/Ovivo.jpg")}
+            />
           </div>
         </div>
         {/*Primary Treatment Wastewater*/}

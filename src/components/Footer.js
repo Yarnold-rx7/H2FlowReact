@@ -1,5 +1,7 @@
 import React from "react";
 import Socials from "./Socials";
+import iso from "../img/iso.png";
+import isn from "../img/isn.png";
 
 export default function Footer() {
   return (
@@ -8,8 +10,8 @@ export default function Footer() {
         <div className="container">
           <div className="row">
             <div className="col-6">
-              <img src="../img/iso.png" className="mr-3" alt="ISO 9001:2015" />
-              <img src="../img/isn.png" alt="ISN Certified" />
+              <img src={iso} className="mr-3" alt="ISO 9001:2015" />
+              <img src={isn} alt="ISN Certified" />
             </div>
             <div className="col-6 text-right">
               <Socials></Socials>
