@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/H2FlowReact/static/css/main.97259ad3.css",
-    "main.js": "/H2FlowReact/static/js/main.7157c39b.js",
+    "main.css": "/H2FlowReact/static/css/main.68f90224.css",
+    "main.js": "/H2FlowReact/static/js/main.a76f7f3f.js",
     "static/js/787.433c6bd7.chunk.js": "/H2FlowReact/static/js/787.433c6bd7.chunk.js",
     "static/media/Alpha5Skid.png": "/H2FlowReact/static/media/Alpha5Skid.5fb9a8617a7889460297.png",
     "static/media/Muni_WWTP.jpg": "/H2FlowReact/static/media/Muni_WWTP.448c123f1251b7eec43a.jpg",
@@ -68,7 +68,6 @@
     "static/media/revicons.ttf": "/H2FlowReact/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/Enviromix.jpg": "/H2FlowReact/static/media/Enviromix.b2e6c9c9a1ccfc108854.jpg",
     "static/media/AdEdge.jpg": "/H2FlowReact/static/media/AdEdge.a5fed2512b7aa38f9b77.jpg",
-    "static/media/mining_facility.jpg": "/H2FlowReact/static/media/mining_facility.c58d1d41ed7159078e9e.jpg",
     "static/media/Unison_Solutions.jpg": "/H2FlowReact/static/media/Unison_Solutions.8e25946efd95ee648ade.jpg",
     "static/media/Moleaer.jpg": "/H2FlowReact/static/media/Moleaer.2222a7f80c66f9e87f03.jpg",
     "static/media/Parkson.jpg": "/H2FlowReact/static/media/Parkson.53c08fd2d9ddd1ef09c7.jpg",
@@ -87,12 +86,12 @@
     "static/media/LinkedIn-color.svg": "/H2FlowReact/static/media/LinkedIn-color.89ac8411853e0a19afcfc63e63110674.svg",
     "static/media/Facebook-color.svg": "/H2FlowReact/static/media/Facebook-color.04a068b4876009e6940366a0dfe33136.svg",
     "static/media/css": "/H2FlowReact/static/media/css.96df200b90deff863ba6",
-    "main.97259ad3.css.map": "/H2FlowReact/static/css/main.97259ad3.css.map",
-    "main.7157c39b.js.map": "/H2FlowReact/static/js/main.7157c39b.js.map",
+    "main.68f90224.css.map": "/H2FlowReact/static/css/main.68f90224.css.map",
+    "main.a76f7f3f.js.map": "/H2FlowReact/static/js/main.a76f7f3f.js.map",
     "787.433c6bd7.chunk.js.map": "/H2FlowReact/static/js/787.433c6bd7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97259ad3.css",
-    "static/js/main.7157c39b.js"
+    "static/css/main.68f90224.css",
+    "static/js/main.a76f7f3f.js"
   ]
 }
