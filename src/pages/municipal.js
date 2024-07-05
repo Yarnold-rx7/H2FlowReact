@@ -1,39 +1,70 @@
 import React from "react";
-import MuniOntario from "../components/MuniOntario";
+import MuniOnWastewater from "../components/MuniOntarioWastewater";
+import MuniOnWater from "../components/Products/MuniOntarioWater";
 
-const Manufacturers = () => {
+const Municipal = () => {
   return (
-    <div>
-      <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
-      <title>H2Flow Equipment Inc - Water and Wastewater Treatment</title>
-      <meta
-        name="keywords"
-        content="Hybrid Blower Ontario, Centrifugal Blower Ontario, Aerzen Ontario, Continental Blower Ontario, BlueinGreen Ontario"
-      />
-      <meta
-        name="description"
-        content="H2Flow supplies processes and equipment for water and wastewater treatment for industrial and municipal use and actively works with plant engineers & operators, consulting engineers and contractors."
-      />
-      <div className="site-container">
-        <div className="page-content">
-          <div className="container pb-4">
-            <div className="row">
-              <div className="col-12 pb-4">
-                <MuniOntario />
-                <hr />
-              </div>
-            </div>
-          </div>
-          <div className="py-4 border-color-top">
-            {" "}
-            <div className="container">
-              <div className="row"></div>
-            </div>
-          </div>
+    <>
+      <section className="muni-header">
+        {" "}
+        <div className="row industrial_header flex align-items-center">
+          <h1 className="industrial_title text-center">Municipal Solutions</h1>
         </div>
+      </section>
+      <div className="py-4 border-color-top"></div>
+
+      <section className="muni-intro">
+        <div className="muni-intro-content container mb-5">
+          <h5>
+            H2Flow Equipment Inc. stands at the forefront of providing
+            cutting-edge technologies for municipal water and wastewater
+            treatment. Suppling water and wastewater treatment equipment for
+            over thirty years!
+          </h5>
+        </div>
+      </section>
+      <section className="muni-content">
+        <div className="container muni-content">
+          <h5>Manufacturer's representitive</h5>
+          <p>
+            H2Flow collaborates with worldclass manufacturers, bridging the gap
+            between technology creators and end-users. Our extensive network
+            allows us to introduce state-of-the-art equipment for every unit
+            operation of a plant, from headworks to disinfection!
+          </p>
+          <h5>Industry Leadership</h5>
+          <p>
+            With ISO 9001:2015 certification, H2Flow is committed to excellence.
+            Our collaboration extends to plant engineers, operators, consulting
+            engineers, and contractors, ensuring seamless integration of our
+            solutions.
+          </p>
+          <h5>Service Commitment</h5>
+          <p>
+            Our promise extends beyond equipment supply. We provide ongoing
+            support, troubleshooting, and operator training. Service contracts
+            ensure reliable equipment operation.
+          </p>
+        </div>
+      </section>
+      <section className="province">
+        <div className="container province-select">
+          <h3>
+            For a list of the manufactures we represent, please select a
+            Territory
+          </h3>
+          <p>Ontario</p>
+          <p>Quebec</p>
+          <p>Maritimes</p>
+          <p>Western Canada</p>
+        </div>
+      </section>
+      <div className="col-12 pb-4 container">
+        <MuniOnWastewater />
+        <MuniOnWater />
       </div>
-    </div>
+    </>
   );
 };
 
-export default Manufacturers;
+export default Municipal;

@@ -99,12 +99,16 @@ const daf = () => {
       <section className="daf-principals">
         <img
           className="daf-principals-img"
-          src="../../img/bkrnds/home_parallax.jpg"
+          src={require("../../img/bkrnds/home_parallax.jpg")}
+          alt="daf process diagram"
         />
         <div className="container daf-container daf-principals-container">
-          <h3 className="my-5 text-center">Principal of Operation</h3>
+          <h2 className="my-5 text-center">Principal of Operation</h2>
           <div className="row">
-            <img src="../../img/cards/dafModels/DAFschematic.png"></img>
+            <img
+              src={require("../../img/cards/dafModels/DAFschematic.png")}
+              alt="daf schematic diagram"
+            ></img>
           </div>
           <p>
             The core principle of DAF involves the introduction of air bubbles

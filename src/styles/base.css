@@ -251,17 +251,25 @@ nav > ul > li > a:hover {
 /* ######################Industrial Page ################ */
 
 .industrial_header {
-  background-image: url(../../public/img/cards/industrial_header.jpg);
+  background-image: url(../../public/img/bkrnds/waves.jpg);
   background-position: 0%;
   background-size: cover;
   height: 300px;
+  background-color: rgba(80, 115, 159, 0.6);
+  background-blend-mode: multiply;
 }
 
 .industrial_title {
-  color: rgb(224, 224, 226);
-  background-color: #3f3f3f;
-  backdrop-filter: blur(20px);
+  color: #fff;
+  /* background-color: #3f3f3f; */
+  /* backdrop-filter: blur(20px); */
   margin-bottom: 0;
+  font-size: 4rem;
+}
+
+/* product spotlight */
+.product-spotlight {
+  background-color: #5e768bb7;
 }
 
 /*###############################  */

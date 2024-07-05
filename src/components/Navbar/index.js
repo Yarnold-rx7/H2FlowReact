@@ -82,7 +82,7 @@ const Navbar = () => {
               <NavLink to="/H2FlowReact/industrial">INDUSTRIAL</NavLink>
             </li>
             <li id="mnu_industrial">
-              <NavLink to="https://h2flowtanks.com">TANKS</NavLink>
+              <NavLink to="/H2FlowReact/">TANKS</NavLink>
             </li>
             <li id="mnu_products">
               <NavLink to="/H2FlowReact/projects">PROJECTS</NavLink>

@@ -34,14 +34,14 @@ export default function Sectors() {
                     <h4 className="card-title">
                       Industrial Water and Wastewater Treatment
                     </h4>
-                    <a className="card-link" href="./Municipal.html">
+                    <NavLink className="card-link" to="./industrial">
                       <img
                         src={require("../img/cards/DAF.jpg")}
                         style={{ height: 300 }}
                         className="card-img img-fluid"
                         alt="Industrial wwtp"
                       />
-                    </a>
+                    </NavLink>
                   </div>
                 </div>
               </div>

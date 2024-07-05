@@ -1,10 +1,9 @@
 import React from "react";
 import Card from "./Card";
 
-export default function Municipal() {
+export default function MuniOntarioWastewater() {
   return (
     <>
-      <h2>MUNICIPAL SOLUTIONS</h2>
       <h4>WASTEWATER TREATMENT</h4>
 
       <div className="accordion" id="wastewaterList">
