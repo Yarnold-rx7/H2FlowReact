@@ -32,7 +32,7 @@ const Municipal = () => {
             allows us to introduce state-of-the-art equipment for every unit
             operation of a plant, from headworks to disinfection!
           </p>
-          <h5>Industry Leadership</h5>
+          <h5>Industry Leader</h5>
           <p>
             With ISO 9001:2015 certification, H2Flow is committed to excellence.
             Our collaboration extends to plant engineers, operators, consulting

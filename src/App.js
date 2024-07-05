@@ -13,6 +13,7 @@ import Municipal from "./pages/municipal";
 import DAF from "./pages/ProductPages/daf";
 import UV from "./pages/ProductPages/uv";
 import Alpha from "./pages/ProductPages/DAFModels/alpha";
+import ScrollToTop from "./components/ScrollToTop";
 
 const history = createHashHistory();
 
@@ -20,6 +21,7 @@ function App() {
   return (
     <>
       <Router history={history}>
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/H2FlowReact" element={<Home />} />

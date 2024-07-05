@@ -198,7 +198,6 @@ const Headworks = () => {
           </div>
           ;
         </div>
-        <Footer></Footer>
       </div>
       {/* Show four images at once */}
     </div>

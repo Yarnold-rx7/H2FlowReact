@@ -25,11 +25,18 @@ export default function MuniOntarioWastewater() {
             className="accordion-collapse collapse"
             data-bs-parent="#wastewaterList"
           >
-            <div className="accordion-body">
+            <div className="accordion-body row flex">
               <Card
                 name="Atara"
                 webUrl="https://www.atarequipment.com"
                 imgSrc={require("../img/Atara.jpg")}
+                desc="Shaftless Screw conveyors, grit systems and more"
+              />
+              <Card
+                name="Franklin Miller"
+                webUrl="https://www.franklinmiller.com/"
+                imgSrc={require("../img/FranklinMill.jpg")}
+                desc="Franklin Miller excels in size reduction technology, offering crushers, shredders, grinders, and wastewater treatment systems. Our expertise in both dry solids processing and liquid or pressure seal systems."
               />
             </div>
           </div>

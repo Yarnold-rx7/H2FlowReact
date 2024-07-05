@@ -19,7 +19,7 @@ export default function Technologies() {
                     title="HEADWORKS & SCREENING"
                   ></TechnologyItem>
                   <TechnologyItem
-                    url="H2FlowReact/uv"
+                    url="/H2FlowReact/uv"
                     title="UV AOP & DISINFECTION"
                   ></TechnologyItem>
                   <TechnologyItem title="BIOLOGICAL TREATMENT"></TechnologyItem>

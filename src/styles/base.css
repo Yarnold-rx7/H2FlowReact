@@ -248,6 +248,13 @@ nav > ul > li > a:hover {
 
 /* ###################################################### */
 
+/* ##################UV PAGE ################ */
+
+.uv-banner {
+  background-image: url("../../src/img/bkrnds/uv.jpg");
+  height: 300px;
+}
+
 /* ######################Industrial Page ################ */
 
 .industrial_header {
