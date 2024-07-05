@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "../../components/Card";
+import CardInternal from "../../components/CardInternal";
 
 const daf = () => {
   return (
@@ -167,12 +168,12 @@ const daf = () => {
             H2FLOW DAF MODELS
           </h2>
           <div className="daf-models row d-flex">
-            <Card
+            <CardInternal
               title="Alpha Series"
-              webUrl="/H2FlowReact/daf/alpha"
+              url="/H2FlowReact/daf/alpha"
               imgSrc={require("../../img/cards/dafModels/Alpha.png")}
               desc="The Alpha flotation units are designed to treat wastewater with high solids loading. The capacity of the Alpha units range from 22 usgpm to 800 usgpm (5 m3/hr up to 180m3/hr."
-            ></Card>
+            ></CardInternal>
             <Card
               title="Delta Series"
               webUrl=""
