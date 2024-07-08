@@ -24,10 +24,10 @@ export default function ProjectNews() {
   };
   return (
     <>
-      <section className="mnf-carousel">
+      <section className="project-news">
         <div className="container">
           <h3 class="text-center">
-            <span style={{ color: "#00acd4" }}>Projects and News</span>
+            <span className="text-dark">Projects and News</span>
           </h3>
           <Carousel
             arrows={true}
@@ -48,19 +48,19 @@ export default function ProjectNews() {
             itemClass="carousel-item-padding-40-px"
           >
             <CarouselItem
-              imgSrc={"cards/Bakkavor.png"}
-              title="Bakkavor"
-              desc="bakkavor stuff"
+              imgSrc={"cards/aqua-guard.jpg"}
+              title="Municipal WWTP Screening"
+              desc="Aquaguard intake screens at a wastewater treatment plant"
             ></CarouselItem>
             <CarouselItem
               imgSrc={"cards/PackagedPlant.jpg"}
-              title="Packaged Plant"
-              desc="A plant for packaging"
+              title="Packaged WWTP"
+              desc="A packaged wastewater faciility for a mining camp"
             ></CarouselItem>
             <CarouselItem
               imgSrc={"cards/rotoshear.jpg"}
               title="Rotoshear"
-              desc="a screen"
+              desc="Rotary intake screens used in a municipal wastewater facility"
             ></CarouselItem>
           </Carousel>
         </div>

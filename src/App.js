@@ -14,6 +14,7 @@ import DAF from "./pages/ProductPages/daf";
 import UV from "./pages/ProductPages/uv";
 import Alpha from "./pages/ProductPages/DAFModels/alpha";
 import ScrollToTop from "./components/ScrollToTop";
+import ContactUs from "./pages/contact";
 
 const history = createHashHistory();
 
@@ -40,6 +41,7 @@ function App() {
           <Route path="/H2FlowReact/daf" element={<DAF />} />
           <Route path="/H2FlowReact/uv" element={<UV />} />
           <Route path="/H2FlowReact/daf/alpha" element={<Alpha />} />
+          <Route path="/H2FlowReact/contact" element={<ContactUs />} />
         </Routes>
       </Router>
       <Footer />

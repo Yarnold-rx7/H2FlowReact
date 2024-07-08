@@ -7,7 +7,7 @@ export default function TechnologyItem({ url, title }) {
       <NavLink to={url}>
         <button
           type="button"
-          className="list-group-item list-group-item-action"
+          className="tech-list-item list-group-item list-group-item-action"
         >
           {title}
         </button>

@@ -88,7 +88,7 @@ const Navbar = () => {
               <NavLink to="/H2FlowReact/projects">PROJECTS</NavLink>
             </li>
             <li id="mnu_mnfs">
-              <NavLink to="/contact">CONTACT US</NavLink>
+              <NavLink to="/H2FlowReact/contact">CONTACT US</NavLink>
             </li>
           </ul>
           <div className="container mobileMenuBtn d-block d-lg-none">

@@ -110,9 +110,9 @@ nav > .mobileMenuBtn > ul > li > a {
   min-height: 100%;
   position: relative;
 }
-.page-content {
+/* .page-content {
   padding-bottom: 141px;
-}
+} */
 .footer-right {
   text-align: right;
 }
@@ -238,7 +238,7 @@ nav > ul > li > a:hover {
   font-weight: 600;
   font-size: 22px;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 6px;
   color: #4497bb;
 }
 
@@ -246,13 +246,38 @@ nav > ul > li > a:hover {
   text-decoration: none;
 }
 
-/* ###################################################### */
+.tech-list {
+  width: 800px;
+  display: flex;
+  margin: auto;
+}
+
+.tech-list-item {
+  margin-top: 4px;
+  margin-bottom: 6px;
+  background-color: #ffffffd5;
+  border: none;
+}
+
+/* ############Project News */
+
+.project-news {
+  background-color: #b2bdc7;
+}
 
 /* ##################UV PAGE ################ */
 
 .uv-banner {
   background-image: url("../../src/img/bkrnds/uv.jpg");
   height: 300px;
+}
+
+/* #################CONTACT US */
+.contact-form {
+  background-color: #00add449;
+  padding: 25px 15px;
+  border-radius: 8px;
+  margin-bottom: 30px;
 }
 
 /* ######################Industrial Page ################ */
@@ -659,9 +684,9 @@ nav > ul > li > a:hover {
     margin-top: 1rem;
     text-align: left !important;
   }
-  .page-content {
+  /* .page-content {
     padding-bottom: 195px;
-  }
+  } */
   #logo {
     height: 80px;
     width: 234px;
